@@ -17,15 +17,14 @@ La simulation Monte-Carlo est une méthode numérique qui consiste à reproduire
 Dans ce projet, elle est utilisée pour modéliser l’apparition des pannes et les temps de réparation des machines industrielles étudiées.
 
 La simulation est dite événementielle, car le temps n’évolue pas de manière continue, mais d’un événement à un autre. Les événements considérés sont principalement :
-   l’apparition d’une panne sur une machine,
-   la fin de la réparation de cette panne
-Pour une simulation :
+   l’apparition d’une panne sur une machine, la fin de la réparation de cette panne .
+   Pour une simulation :
 
-1- Temps = 0 .
-2- Tirer le temps jusqu’à la prochaine panne .
-3- Tirer la machine en panne .
-4- Tirer la durée de réparation .
-5- Arrêter la chaîne .
-6- Reprendre .
-7- Continuer jusqu’à 1935 h .
-Répéter N = 10 000 fois .
+      1- Temps = 0 .
+      2- Tirer le temps jusqu’à la prochaine panne .
+      3- Tirer la machine en panne .
+      4- Tirer la durée de réparation .
+      5- Arrêter la chaîne .
+      6- Reprendre .
+      7- Continuer jusqu’à 1935 h .
+   Répéter N = 10 000 fois .
